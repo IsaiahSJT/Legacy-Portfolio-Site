@@ -1,0 +1,651 @@
+@charset "UTF-8";
+@font-face {
+  font-family: hyperlegible;
+  src: url(./fonts/Atkinson-Hyperlegible-Regular-102a.woff2);
+}
+@font-face {
+  font-family: hyperlegible;
+  src: url(./fonts/Atkinson-Hyperlegible-Bold-102a.woff2);
+  font-weight: bold;
+}
+@font-face {
+  font-family: hyperlegible;
+  src: url(./fonts/Atkinson-Hyperlegible-Italic-102a.woff2);
+  font-style: italic;
+}
+h1, h2 {
+  font-family: hyperlegible;
+  text-align: center;
+}
+
+.bodytext {
+  margin: auto;
+  margin-top: 0px;
+  width: 30%;
+  padding: 15px;
+  align-items: center;
+  border: 5px solid #002D67;
+  border-radius: 15px;
+}
+
+.skills {
+  padding: 0 0 0 3px;
+  background-color: lightsalmon;
+}
+.skills::before {
+  font-weight: 600;
+}
+.skills::before {
+  content: "​";
+  content: "​"/"Front End Web Developer";
+  alt: "Front End Web Developer";
+  white-space: break-spaces;
+  will-change: content;
+  animation: typed-0 9.81s linear 1s infinite forwards;
+}
+.skills::after {
+  content: "​";
+  position: relative;
+  display: inline-block;
+  padding-right: 2px;
+  border-right: 2px solid currentColor;
+  white-space: nowrap;
+  animation: typed-0-caret 0.75s linear 1s infinite forwards;
+}
+@keyframes typed-0 {
+  0%, 0.5086839959% {
+    content: "​F";
+    content: "​F"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  0.5096839959%, 1.0183679918% {
+    content: "​Fr";
+    content: "​Fr"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  1.0193679918%, 1.5280519878% {
+    content: "​Fro";
+    content: "​Fro"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  1.5290519878%, 2.0377359837% {
+    content: "​Fron";
+    content: "​Fron"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  2.0387359837%, 2.5474199796% {
+    content: "​Front";
+    content: "​Front"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  2.5484199796%, 3.0571039755% {
+    content: "​Front ";
+    content: "​Front "/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  3.0581039755%, 3.5667879715% {
+    content: "​Front E";
+    content: "​Front E"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  3.5677879715%, 4.0764719674% {
+    content: "​Front En";
+    content: "​Front En"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  4.0774719674%, 4.5861559633% {
+    content: "​Front End";
+    content: "​Front End"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  4.5871559633%, 5.0958399592% {
+    content: "​Front End ";
+    content: "​Front End "/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  5.0968399592%, 5.6055239551% {
+    content: "​Front End W";
+    content: "​Front End W"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  5.6065239551%, 6.1152079511% {
+    content: "​Front End We";
+    content: "​Front End We"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  6.1162079511%, 6.624891947% {
+    content: "​Front End Web";
+    content: "​Front End Web"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  6.625891947%, 7.1345759429% {
+    content: "​Front End Web ";
+    content: "​Front End Web "/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  7.1355759429%, 7.6442599388% {
+    content: "​Front End Web D";
+    content: "​Front End Web D"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  7.6452599388%, 8.1539439348% {
+    content: "​Front End Web De";
+    content: "​Front End Web De"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  8.1549439348%, 8.6636279307% {
+    content: "​Front End Web Dev";
+    content: "​Front End Web Dev"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  8.6646279307%, 9.1733119266% {
+    content: "​Front End Web Deve";
+    content: "​Front End Web Deve"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  9.1743119266%, 9.6829959225% {
+    content: "​Front End Web Devel";
+    content: "​Front End Web Devel"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  9.6839959225%, 10.1926799185% {
+    content: "​Front End Web Develo";
+    content: "​Front End Web Develo"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  10.1936799185%, 10.7023639144% {
+    content: "​Front End Web Develop";
+    content: "​Front End Web Develop"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  10.7033639144%, 11.2120479103% {
+    content: "​Front End Web Develope";
+    content: "​Front End Web Develope"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  11.2130479103%, 22.3231590214% {
+    content: "​Front End Web Developer";
+    content: "​Front End Web Developer"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  22.3241590214%, 22.7309062181% {
+    content: "​Front End Web Develope";
+    content: "​Front End Web Develope"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  22.7319062181%, 23.1386534149% {
+    content: "​Front End Web Develop";
+    content: "​Front End Web Develop"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  23.1396534149%, 23.5464006116% {
+    content: "​Front End Web Develo";
+    content: "​Front End Web Develo"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  23.5474006116%, 23.9541478084% {
+    content: "​Front End Web Devel";
+    content: "​Front End Web Devel"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  23.9551478084%, 24.3618950051% {
+    content: "​Front End Web Deve";
+    content: "​Front End Web Deve"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  24.3628950051%, 24.7696422018% {
+    content: "​Front End Web Dev";
+    content: "​Front End Web Dev"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  24.7706422018%, 25.1773893986% {
+    content: "​Front End Web De";
+    content: "​Front End Web De"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  25.1783893986%, 25.5851365953% {
+    content: "​Front End Web D";
+    content: "​Front End Web D"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  25.5861365953%, 25.992883792% {
+    content: "​Front End Web ";
+    content: "​Front End Web "/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  25.993883792%, 26.4006309888% {
+    content: "​Front End Web";
+    content: "​Front End Web"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  26.4016309888%, 26.8083781855% {
+    content: "​Front End We";
+    content: "​Front End We"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  26.8093781855%, 27.2161253823% {
+    content: "​Front End W";
+    content: "​Front End W"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  27.2171253823%, 27.623872579% {
+    content: "​Front End ";
+    content: "​Front End "/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  27.624872579%, 28.0316197757% {
+    content: "​Front End";
+    content: "​Front End"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  28.0326197757%, 28.4393669725% {
+    content: "​Front En";
+    content: "​Front En"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  28.4403669725%, 28.8471141692% {
+    content: "​Front E";
+    content: "​Front E"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  28.8481141692%, 29.254861366% {
+    content: "​Front ";
+    content: "​Front "/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  29.255861366%, 29.6626085627% {
+    content: "​Front";
+    content: "​Front"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  29.6636085627%, 30.0703557594% {
+    content: "​Fron";
+    content: "​Fron"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  30.0713557594%, 30.4781029562% {
+    content: "​Fro";
+    content: "​Fro"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  30.4791029562%, 30.8858501529% {
+    content: "​Fr";
+    content: "​Fr"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  30.8868501529%, 31.2935973496% {
+    content: "​F";
+    content: "​F"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  31.2945973496%, 36.3904373089% {
+    content: "​";
+    content: "​"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  36.3914373089%, 36.9001213048% {
+    content: "​L";
+    content: "​L"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  36.9011213048%, 37.4098053007% {
+    content: "​Li";
+    content: "​Li"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  37.4108053007%, 37.9194892966% {
+    content: "​Lin";
+    content: "​Lin"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  37.9204892966%, 38.4291732926% {
+    content: "​Linu";
+    content: "​Linu"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  38.4301732926%, 38.9388572885% {
+    content: "​Linux";
+    content: "​Linux"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  38.9398572885%, 39.4485412844% {
+    content: "​Linux ";
+    content: "​Linux "/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  39.4495412844%, 39.9582252803% {
+    content: "​Linux E";
+    content: "​Linux E"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  39.9592252803%, 40.4679092762% {
+    content: "​Linux En";
+    content: "​Linux En"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  40.4689092762%, 40.9775932722% {
+    content: "​Linux Ent";
+    content: "​Linux Ent"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  40.9785932722%, 41.4872772681% {
+    content: "​Linux Enth";
+    content: "​Linux Enth"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  41.4882772681%, 41.996961264% {
+    content: "​Linux Enthu";
+    content: "​Linux Enthu"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  41.997961264%, 42.5066452599% {
+    content: "​Linux Enthus";
+    content: "​Linux Enthus"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  42.5076452599%, 43.0163292559% {
+    content: "​Linux Enthusi";
+    content: "​Linux Enthusi"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  43.0173292559%, 43.5260132518% {
+    content: "​Linux Enthusia";
+    content: "​Linux Enthusia"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  43.5270132518%, 44.0356972477% {
+    content: "​Linux Enthusias";
+    content: "​Linux Enthusias"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  44.0366972477%, 55.1468083588% {
+    content: "​Linux Enthusiast";
+    content: "​Linux Enthusiast"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  55.1478083588%, 55.5545555556% {
+    content: "​Linux Enthusias";
+    content: "​Linux Enthusias"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  55.5555555556%, 55.9623027523% {
+    content: "​Linux Enthusia";
+    content: "​Linux Enthusia"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  55.9633027523%, 56.370049949% {
+    content: "​Linux Enthusi";
+    content: "​Linux Enthusi"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  56.371049949%, 56.7777971458% {
+    content: "​Linux Enthus";
+    content: "​Linux Enthus"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  56.7787971458%, 57.1855443425% {
+    content: "​Linux Enthu";
+    content: "​Linux Enthu"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  57.1865443425%, 57.5932915392% {
+    content: "​Linux Enth";
+    content: "​Linux Enth"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  57.5942915392%, 58.001038736% {
+    content: "​Linux Ent";
+    content: "​Linux Ent"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  58.002038736%, 58.4087859327% {
+    content: "​Linux En";
+    content: "​Linux En"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  58.4097859327%, 58.8165331295% {
+    content: "​Linux E";
+    content: "​Linux E"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  58.8175331295%, 59.2242803262% {
+    content: "​Linux ";
+    content: "​Linux "/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  59.2252803262%, 59.6320275229% {
+    content: "​Linux";
+    content: "​Linux"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  59.6330275229%, 60.0397747197% {
+    content: "​Linu";
+    content: "​Linu"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  60.0407747197%, 60.4475219164% {
+    content: "​Lin";
+    content: "​Lin"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  60.4485219164%, 60.8552691131% {
+    content: "​Li";
+    content: "​Li"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  60.8562691131%, 61.2630163099% {
+    content: "​L";
+    content: "​L"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  61.2640163099%, 66.3598562691% {
+    content: "​";
+    content: "​"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  66.3608562691%, 66.869540265% {
+    content: "​G";
+    content: "​G"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  66.870540265%, 67.379224261% {
+    content: "​Gr";
+    content: "​Gr"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  67.380224261%, 67.8889082569% {
+    content: "​Gra";
+    content: "​Gra"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  67.8899082569%, 68.3985922528% {
+    content: "​Grap";
+    content: "​Grap"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  68.3995922528%, 68.9082762487% {
+    content: "​Graph";
+    content: "​Graph"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  68.9092762487%, 69.4179602446% {
+    content: "​Graphi";
+    content: "​Graphi"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  69.4189602446%, 69.9276442406% {
+    content: "​Graphic";
+    content: "​Graphic"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  69.9286442406%, 70.4373282365% {
+    content: "​Graphic/";
+    content: "​Graphic/"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  70.4383282365%, 70.9470122324% {
+    content: "​Graphic/W";
+    content: "​Graphic/W"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  70.9480122324%, 71.4566962283% {
+    content: "​Graphic/We";
+    content: "​Graphic/We"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  71.4576962283%, 71.9663802243% {
+    content: "​Graphic/Web";
+    content: "​Graphic/Web"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  71.9673802243%, 72.4760642202% {
+    content: "​Graphic/Web ";
+    content: "​Graphic/Web "/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  72.4770642202%, 72.9857482161% {
+    content: "​Graphic/Web D";
+    content: "​Graphic/Web D"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  72.9867482161%, 73.495432212% {
+    content: "​Graphic/Web De";
+    content: "​Graphic/Web De"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  73.496432212%, 74.005116208% {
+    content: "​Graphic/Web Des";
+    content: "​Graphic/Web Des"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  74.006116208%, 74.5148002039% {
+    content: "​Graphic/Web Desi";
+    content: "​Graphic/Web Desi"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  74.5158002039%, 75.0244841998% {
+    content: "​Graphic/Web Desig";
+    content: "​Graphic/Web Desig"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  75.0254841998%, 75.5341681957% {
+    content: "​Graphic/Web Design";
+    content: "​Graphic/Web Design"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  75.5351681957%, 76.0438521916% {
+    content: "​Graphic/Web Designe";
+    content: "​Graphic/Web Designe"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  76.0448521916%, 87.1549633028% {
+    content: "​Graphic/Web Designer";
+    content: "​Graphic/Web Designer"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  87.1559633028%, 87.5627104995% {
+    content: "​Graphic/Web Designe";
+    content: "​Graphic/Web Designe"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  87.5637104995%, 87.9704576962% {
+    content: "​Graphic/Web Design";
+    content: "​Graphic/Web Design"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  87.9714576962%, 88.378204893% {
+    content: "​Graphic/Web Desig";
+    content: "​Graphic/Web Desig"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  88.379204893%, 88.7859520897% {
+    content: "​Graphic/Web Desi";
+    content: "​Graphic/Web Desi"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  88.7869520897%, 89.1936992864% {
+    content: "​Graphic/Web Des";
+    content: "​Graphic/Web Des"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  89.1946992864%, 89.6014464832% {
+    content: "​Graphic/Web De";
+    content: "​Graphic/Web De"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  89.6024464832%, 90.0091936799% {
+    content: "​Graphic/Web D";
+    content: "​Graphic/Web D"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  90.0101936799%, 90.4169408767% {
+    content: "​Graphic/Web ";
+    content: "​Graphic/Web "/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  90.4179408767%, 90.8246880734% {
+    content: "​Graphic/Web";
+    content: "​Graphic/Web"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  90.8256880734%, 91.2324352701% {
+    content: "​Graphic/We";
+    content: "​Graphic/We"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  91.2334352701%, 91.6401824669% {
+    content: "​Graphic/W";
+    content: "​Graphic/W"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  91.6411824669%, 92.0479296636% {
+    content: "​Graphic/";
+    content: "​Graphic/"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  92.0489296636%, 92.4556768603% {
+    content: "​Graphic";
+    content: "​Graphic"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  92.4566768603%, 92.8634240571% {
+    content: "​Graphi";
+    content: "​Graphi"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  92.8644240571%, 93.2711712538% {
+    content: "​Graph";
+    content: "​Graph"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  93.2721712538%, 93.6789184506% {
+    content: "​Grap";
+    content: "​Grap"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  93.6799184506%, 94.0866656473% {
+    content: "​Gra";
+    content: "​Gra"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  94.0876656473%, 94.494412844% {
+    content: "​Gr";
+    content: "​Gr"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  94.495412844%, 94.9021600408% {
+    content: "​G";
+    content: "​G"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+  94.9031600408%, 100% {
+    content: "​";
+    content: "​"/"Front End Web Developer";
+    alt: "Front End Web Developer";
+  }
+}
+@keyframes typed-0-caret {
+  75% {
+    border-color: transparent;
+  }
+}/*# sourceMappingURL=style.css.map */

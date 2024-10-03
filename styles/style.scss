@@ -1,0 +1,40 @@
+@font-face {
+    font-family: hyperlegible;
+    src: url(./fonts/Atkinson-Hyperlegible-Regular-102a.woff2);
+}
+@font-face {
+    font-family: hyperlegible;
+    src: url(./fonts/Atkinson-Hyperlegible-Bold-102a.woff2);
+    font-weight: bold
+}
+@font-face {
+    font-family: hyperlegible;
+    src: url(./fonts/Atkinson-Hyperlegible-Italic-102a.woff2);
+    font-style: italic
+}
+@import 'typed';
+h1, h2{
+    font-family: hyperlegible;
+    text-align: center;
+}
+.bodytext {
+    margin: auto;
+    margin-top: 0px;
+    width: 30%;
+    padding: 15px;
+    align-items: center;
+    border: 5px solid  #002D67;
+    border-radius: 15px;
+}
+
+.skills {
+	padding: 0 0 0 3px;
+	background-color: lightsalmon;
+	&::before { font-weight: 600; }
+	@include typed(
+		"Front End Web Developer", "Linux Enthusiast", "Graphic/Web Designer",
+		2,
+		(caret-width: 2px, caret-space: 2px)
+	);
+}
+
