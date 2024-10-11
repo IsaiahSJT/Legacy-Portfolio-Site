@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+header, footer {
+    background-image: url(../images/waveheader.png);
+    background-size: cover;
+    padding-top: 2vmin;
+    text-align: center;
+    height: 20vmin;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+}
+.title-text {
+    font-size: 5vmin;
+    font-weight: bold;
+} 
+body {
+    background-color: #EEF5FC;
+    font-family: "Montserrat", sans-serif;
+    color: #162D50;
+    font-weight: 500;
+    font-size: 20px;
+}
+.sm-portrait {
+    justify-content: center;
+    align-items: center;
+}
+.heading, .paragraph {
+    border: 5px solid  #002D67;
+    border-radius: 15px;
+    background-color: #002D67 ;
+    color: #EEF5FC;
+}
+hr {
+    color: #002D67;
+    background-color: #002D67;
+    opacity: 100%;
+    border-width: 0;
+    height: 3px;
+    margin: 0px;
+}
+.paragraph {
+    background-color: #EEF5FC ;
+    color: #002D67;
+}
+@media only screen and (max-width: 991px){
+    body {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 575px){
+    body {
+        font-size: 14px;
+    }
+}
+img {
+    width: 100%;
+}
+.square {
+    object-fit: cover;
+    border: 5px solid  #EEF5FC;
+}
+.stretch {
+    display: grid;
+    grid-template-columns: 10fr 1fr 10fr;
+}
+
+.background-1 {
+    background-image: url(../images/background-1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.background-2 {
+    background-image: url(../images/background-2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.background-3 {
+    background-image: url(../images/background-3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.background-4 {
+    background-image: url(../images/background-4.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.background-5 {
+    background-image: url(../images/background-5.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.footer-space {
+    margin-bottom: 200px;
+}
+footer {
+    background-image: url(../images/wavefooter.png);
+    margin-top: -100px;
+    padding-top: 8vmin;
+    font-size: 5vmin;
+    font-weight: 600;
+    min-height: 130px;
+}
+/* test for CTEC Web Server */
