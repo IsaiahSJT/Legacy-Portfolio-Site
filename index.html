@@ -1,19 +1,154 @@
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/style.css">
-    <title>Branding Test</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Isaiah Tsikayi</title>
 </head>
+
 <body>
-    <h1>My name is Isaiah Tsikayi, I'm a <span class="skills"></span>!</h1>
-    <h2>Resume Details:</h2>
-    <p class="bodytext">-Build/Troubleshoot Computers<br>-Use Linux & Windows<br>-Python Development<br>-HTML, CSS, SaSS, Bootstrap, Responsive & Accessible Design<br>-Completed AA DTA Clark College (GPA)<br>-Leadership Experience (XC)
-        <br>-Docker, Distrobox<br>-Basic Java<br>-Band Website conversion<br>-HTML/Web Design Classes & Projects<br>-Figma!<br>-Inkscape/Photoshop<br>-Very Organized</p>
-    <p>Congrats, I'm on github now </p>
-    <P>testing testing, can I put this on github too?</P>
-    <p>&#128515;</p>
+    <header>
+        <h1 class="title-text">Isaiah Tsikayi Personal Branding</h1>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="row align-items-center">
+                <!--Two images, one for general and one centered for small screens-->
+                <div class="d-md-none col-10 col-sm-9 mb-2 mx-auto my-4"> <img src="./images/Portrait.PNG" class="rounded-4 img-fluid shadow" alt="A picture of Isaiah Tsikayi under a colorful outdoor arch"></div>
+                <div class="d-none d-md-inline col-8 col-md-6 col-lg-5 col-xl-4 my-5"><img src="./images/Portrait.PNG" class="rounded-5 img-fluid shadow" alt="A picture of Isaiah Tsikayi under a colorful outdoor arch"></div>
+                <div class="col-12 col-md-6 col-lg-7 col-xl-8">
+                    <h2 class=" heading p-2 fw-bold mt-3">Isaiah Tsikayi</h2>
+                    <div class="paragraph p-3 my-4">
+                        <p>I’m a Running Start student who’s been at Clark College for almost two years. I plan to graduate with a General Studies AA this Spring and transfer into a Computer Science program. I’ll likely do a Web Development emphasis as well. Something notable about me is that I always love to try new things.</p>
+                        <p class="fw-bold mb-0">Below are my current interests:</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <section> <!--Outdoor Recreation-->
+            <div class="containter-fluid background-1">
+                <div class="container">
+                    <div class="row">
+                        <h2 class="col-11 heading fs-2 fw-bold mt-3 ms-3 p-1 ps-2">Outdoor Recreation</h2>
+                        <div class="stretch my-3 d-md-none"> <!--Images for mobile-->
+                            <div> <img src="./images/OregonBeach.jpg" alt="A circular rock formation on the Oregon beach" class="square img-fluid rounded-5"></div>
+                            <div></div>
+                            <div> <img src="./images/RoundLake.jpg" alt="A forested trail at Round Lake WA" class="square img-fluid rounded-5"></div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-7">
+                            <p class="paragraph p-3 mt-3">From walking, to hiking, to kayaking, I enjoy spending time outside in the beautiful Pacific Northwest. Everything from our coasts to our forests are majestic, as long as it’s not raining, that is. Summiting Mount St. Helens is one of the activities on my bucket list.</p>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 mt-3">
+                            <aside class="d-none d-md-inline">
+                                <img src="./images/Nature.png" alt="Two pictures: a circular rock formation on the Oregon beach, and a forested trail at Round Lake WA" class="mb-3">
+                            </aside>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section> <!--Sports & Martial Arts-->
+            <div class="containter-fluid background-2">
+                <div class="container">
+                    <div class="row">
+                        <h2 class="col-11 heading fs-2 fw-bold mt-3 ms-3 p-1 ps-2">Sports & Martial Arts</h2>
+                        <div class="stretch my-3 d-md-none"> <!--Images for mobile-->
+                            <div> <img src="./images/CrossCountry.jpg" alt="Isaiah with the varsity Hockinson Cross Country team" class="square img-fluid rounded-5"></div>
+                            <div></div>
+                            <div> <img src="./images/Taekwondo.jpg" alt="Isaiah posing in a Taekwondo uniform with a broken brick" class="square img-fluid rounded-5"></div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-7">
+                            <p class="paragraph p-3 mt-3">For the past several years, I’ve participated on Cross Country and Taekwondo. I like the team culture and outdoor terrain of distance running, and the skills, both practical and flashy, I’ve gained from martial arts. This year I was the co-captain of my school’s Cross Country team, and I earned my Black Belt in Taekwondo.</p>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 mt-3">
+                            <aside class="d-none d-md-inline">
+                                <img src="./images/sports.png" alt="Two pictures: Isaiah posing in a Taekwondo uniform, and him with the Cross Country team" class="mb-3">
+                            </aside>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section> <!--Drawing & Digital Art-->
+            <div class="containter-fluid background-3">
+                <div class="container">
+                    <div class="row">
+                        <h2 class="col-11 heading fs-2 fw-bold mt-3 ms-3 p-1 ps-2">Drawing & Digital Art</h2>
+                        <div class="stretch my-3 d-md-none"> <!--Images for mobile-->
+                            <div> <img src="./images/Tiger.jpg" alt="An image collage featuring a tiger next to a tree" class="square img-fluid rounded-5"></div>
+                            <div></div>
+                            <div> <img src="./images/Drawing.jpg" alt="A drawing of an Anime character from Jujutsu Kaisen" class="square img-fluid rounded-5"></div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-7">
+                            <p class="paragraph p-3 mt-3">While I've only taken Art 101 and Photoshop at Clark, I've spent my free time teaching myself vector graphics and traditional illustration. My favorite coursework has been my 'Dreamscape' From Photoshop, and a digital drawing 'Dragon of the Red Valley' I had featured in the Pheonix Art Gallery for Art 101. Using the skills I taught myself, I created my Cross Country team shirt, and draw illustrations from popular anime for myself and friends.</p>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 mt-3">
+                            <aside class="d-none d-md-inline">
+                                <img src="./images/art.png" alt="Two pictures: A drawing of an Anime character, and an image collage featuring a tiger and a tree." class="mb-3">
+                            </aside>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section> <!--Computer Technology-->
+            <div class="containter-fluid background-4">
+                <div class="container">
+                    <div class="row ">
+                        <h2 class="col-11 heading fs-2 fw-bold mt-3 ms-3 p-1 ps-2">Computer Technology</h2>
+                        <div class="stretch my-3 d-md-none"> <!--Images for mobile-->
+                            <div> <img src="./images/GreenPC.jpg" alt="A colorful gaming computer glowing green" class="square img-fluid rounded-5"></div>
+                            <div></div>
+                            <div> <img src="./images/PurplePC.jpg" alt="A colorful gaming computer glowing purple" class="square img-fluid rounded-5"></div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-7">
+                            <p class="paragraph p-3 mt-3">Ever since I built my first PC in middle school, I’ve had an interest in the hardware and software of the various devices I interact with. I’ve assembled and repaired desktops and laptops, and since Covid have been tinkering with a Linux based home server for files, games, and media. For several years I ran the audio visual systems at my local church.</p>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 mt-3 ">
+                            <aside class="d-none d-md-inline">
+                                <img src="./images/computers.png" alt="Two pictures: A colorful gaming computer glowing purple, and another glowing green" class="mb-3">
+                            </aside>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section> <!--Anything with friends-->
+            <div class="containter-fluid background-5">
+                <div class="container">
+                    <div class="row ">
+                        <h2 class="col-11 heading fs-2 fw-bold mt-3 ms-3 p-1 ps-2">Anything With Friends</h2>
+                        <div class="stretch my-3 d-md-none"> <!--Images for mobile-->
+                            <div> <img src="./images/Spiderman.jpg" alt="Isaiah and friends dressed as Spiderman characters" class="square img-fluid rounded-5"></div>
+                            <div></div>
+                            <div> <img src="./images/ChineseFood.jpg" alt="Isaiah and friends eating Chinese food" class="square img-fluid rounded-5 "></div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-7">
+                            <p class="paragraph p-3 footer-space mt-3">Outside of my typical hobbies, I’m open to do pretty much anything as a social outing with friends. Some recent examples include cosplaying as Spiderman for Fan Expo Portland, and exploring hiking trails and restaurants around the Vancouver area.</p>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 mt-3 "> <!--Images for desktop-->
+                            <aside class="d-none d-md-inline">
+                                <img src="./images/friends.png" alt="Two pictures: Isaiah and friends dressed as Spiderman characters, and them eating Chinese food" class="footer-space">
+                            </aside>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p class="mt-5 fs-5"> &copy; 2024 Isaiah Tsikayi </p>
+    </footer>
 </body>
 
 </html>
- 
